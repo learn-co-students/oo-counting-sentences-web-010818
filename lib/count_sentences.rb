@@ -21,7 +21,7 @@ class String
 
     # More naive solution
     words = self.split
-    #find all words that end with ".!?"
+    #find all words that end with ".!?", assumes no spaces before punctuation
     count = 0
     words.each do |word|
       last = word[word.size - 1]
